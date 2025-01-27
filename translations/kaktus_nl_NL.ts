@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="nl_NL">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="nl_NL">
 <context>
     <name>AboutPage</name>
     <message>
@@ -132,7 +134,10 @@
     <message numerus="yes">
         <location filename="../qml/CoverPage.qml" line="19"/>
         <source>%n unread item(s)</source>
-        <translation><numerusform>één ongelezen item</numerusform><numerusform>%n ongelezen items</numerusform></translation>
+        <translation>
+            <numerusform>één ongelezen item</numerusform>
+            <numerusform>%n ongelezen items</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../qml/CoverPage.qml" line="40"/>
@@ -451,62 +456,62 @@
 <context>
     <name>FeedWebContentPage</name>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="265"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="268"/>
         <source>Back</source>
         <translation>Terug</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="271"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="274"/>
         <source>Toggle Read</source>
         <translation>Markeren als gelezen/ongelezen</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="287"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="290"/>
         <source>Toggle Save</source>
         <translation>Opslaan/Niet opslaan </translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="287"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="290"/>
         <source>Toggle Star</source>
         <translation>Toevoegen aan/Verwijderen uit favorieten</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="301"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="304"/>
         <source>Viewer</source>
         <translation>Weergave</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="310"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="313"/>
         <source>Browser</source>
         <translation>Webbrowser</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="318"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="321"/>
         <source>Add to Pocket</source>
         <translation>Toevoegen aan Pocket </translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="329"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="332"/>
         <source>Toggle Like</source>
         <translation>Leuk vinden/Niet meer leuk vinden</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="339"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="342"/>
         <source>Toggle Share</source>
         <translation>Delen/Niet delen</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="356"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="359"/>
         <source>URL was copied to the clipboard</source>
         <translation>De url is gekopieerd naar het klembord</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="372"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="375"/>
         <source>Increase font</source>
         <translation>Lettertype vergroten</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="362"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="365"/>
         <source>Decrease font</source>
         <translation>Lettertype verkleinen</translation>
     </message>
@@ -531,7 +536,7 @@
         <translation>De netwerkverbinding is verbroken</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="353"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="356"/>
         <source>Copy URL</source>
         <translation>Url kopiëren</translation>
     </message>
@@ -1467,98 +1472,110 @@
     <message numerus="yes">
         <location filename="../src/utils.cpp" line="230"/>
         <source>%n second(s) ago</source>
-        <translation><numerusform>seconde geleden</numerusform><numerusform>%n seconden geleden</numerusform></translation>
+        <translation>
+            <numerusform>seconde geleden</numerusform>
+            <numerusform>%n seconden geleden</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/utils.cpp" line="233"/>
         <source>%n minute(s) ago</source>
-        <translation><numerusform>minuut geleden</numerusform><numerusform>%n minuten geleden</numerusform></translation>
+        <translation>
+            <numerusform>minuut geleden</numerusform>
+            <numerusform>%n minuten geleden</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/utils.cpp" line="236"/>
         <source>%n hour(s) ago</source>
-        <translation><numerusform>uur geleden</numerusform><numerusform>%n uur geleden</numerusform></translation>
+        <translation>
+            <numerusform>uur geleden</numerusform>
+            <numerusform>%n uur geleden</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/utils.cpp" line="242"/>
         <source>%n day(s) ago</source>
-        <translation><numerusform>dag geleden</numerusform><numerusform>%n dagen geleden</numerusform></translation>
+        <translation>
+            <numerusform>dag geleden</numerusform>
+            <numerusform>%n dagen geleden</numerusform>
+        </translation>
     </message>
 </context>
 <context>
     <name>WebPreviewPage</name>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="222"/>
+        <location filename="../qml/WebPreviewPage.qml" line="230"/>
         <source>Back</source>
         <translation>Terug</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="228"/>
+        <location filename="../qml/WebPreviewPage.qml" line="236"/>
         <source>Toggle Read</source>
         <translation>Markeren als gelezen/ongelezen</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="242"/>
+        <location filename="../qml/WebPreviewPage.qml" line="250"/>
         <source>Toggle Save</source>
         <translation>Opslaan/Niet opslaan </translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="242"/>
+        <location filename="../qml/WebPreviewPage.qml" line="250"/>
         <source>Toggle Star</source>
         <translation>Toevoegen aan/Verwijderen uit favorieten</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="256"/>
+        <location filename="../qml/WebPreviewPage.qml" line="264"/>
         <source>Toggle Reader View</source>
         <translation>Leesmodus in-/uitschakelen</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="266"/>
+        <location filename="../qml/WebPreviewPage.qml" line="274"/>
         <source>Toggle Night View</source>
         <translation>Nachtmodus in-/uitschakelen</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="281"/>
+        <location filename="../qml/WebPreviewPage.qml" line="289"/>
         <source>Browser</source>
         <translation>Webbrowser</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="291"/>
+        <location filename="../qml/WebPreviewPage.qml" line="299"/>
         <source>Add to Pocket</source>
         <translation>Toevoegen aan Pocket </translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="302"/>
+        <location filename="../qml/WebPreviewPage.qml" line="310"/>
         <source>Toggle Like</source>
         <translation>Leuk vinden/Niet meer leuk vinden</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="312"/>
+        <location filename="../qml/WebPreviewPage.qml" line="320"/>
         <source>Toggle Share</source>
         <translation>Delen/Niet delen</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="345"/>
+        <location filename="../qml/WebPreviewPage.qml" line="353"/>
         <source>Increase font</source>
         <translation>Lettertype vergroten</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="335"/>
+        <location filename="../qml/WebPreviewPage.qml" line="343"/>
         <source>Decrease font</source>
         <translation>Lettertype verkleinen</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="329"/>
+        <location filename="../qml/WebPreviewPage.qml" line="337"/>
         <source>URL was copied to the clipboard</source>
         <translation>De url is gekopieerd naar het klembord</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="355"/>
+        <location filename="../qml/WebPreviewPage.qml" line="363"/>
         <source>Hide toolbar</source>
         <translation>Werkbalk verbergen</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="326"/>
+        <location filename="../qml/WebPreviewPage.qml" line="334"/>
         <source>Copy URL</source>
         <translation>Url kopiëren</translation>
     </message>

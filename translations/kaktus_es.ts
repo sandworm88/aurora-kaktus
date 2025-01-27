@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="es">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="es">
 <context>
     <name>AboutPage</name>
     <message>
@@ -132,7 +134,10 @@
     <message numerus="yes">
         <location filename="../qml/CoverPage.qml" line="19"/>
         <source>%n unread item(s)</source>
-        <translation><numerusform>%n artículo sin leer</numerusform><numerusform>%n artículos sin leer</numerusform></translation>
+        <translation>
+            <numerusform>%n artículo sin leer</numerusform>
+            <numerusform>%n artículos sin leer</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../qml/CoverPage.qml" line="40"/>
@@ -451,62 +456,62 @@
 <context>
     <name>FeedWebContentPage</name>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="265"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="268"/>
         <source>Back</source>
         <translation>Volver</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="271"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="274"/>
         <source>Toggle Read</source>
         <translation>Leído</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="287"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="290"/>
         <source>Toggle Save</source>
         <translation>Guardado</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="287"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="290"/>
         <source>Toggle Star</source>
         <translation>Favorito</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="301"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="304"/>
         <source>Viewer</source>
         <translation>Visor</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="310"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="313"/>
         <source>Browser</source>
         <translation>Navegador</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="318"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="321"/>
         <source>Add to Pocket</source>
         <translation>Añadir a Pocket</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="329"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="332"/>
         <source>Toggle Like</source>
         <translation>Me gusta</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="339"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="342"/>
         <source>Toggle Share</source>
         <translation>Compartir</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="356"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="359"/>
         <source>URL was copied to the clipboard</source>
         <translation>U</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="372"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="375"/>
         <source>Increase font</source>
         <translation>Aumentar fuente</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="362"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="365"/>
         <source>Decrease font</source>
         <translation>Disminuir fuente</translation>
     </message>
@@ -531,7 +536,7 @@
         <translation>No hay conexión de red</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="353"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="356"/>
         <source>Copy URL</source>
         <translation>Copiar URL</translation>
     </message>
@@ -1467,98 +1472,110 @@
     <message numerus="yes">
         <location filename="../src/utils.cpp" line="230"/>
         <source>%n second(s) ago</source>
-        <translation><numerusform>hace %n segundo</numerusform><numerusform>hace %n segundos</numerusform></translation>
+        <translation>
+            <numerusform>hace %n segundo</numerusform>
+            <numerusform>hace %n segundos</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/utils.cpp" line="233"/>
         <source>%n minute(s) ago</source>
-        <translation><numerusform>hace %n minuto</numerusform><numerusform>hace %n minutos</numerusform></translation>
+        <translation>
+            <numerusform>hace %n minuto</numerusform>
+            <numerusform>hace %n minutos</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/utils.cpp" line="236"/>
         <source>%n hour(s) ago</source>
-        <translation><numerusform>hace %n hora</numerusform><numerusform>hace %n horas</numerusform></translation>
+        <translation>
+            <numerusform>hace %n hora</numerusform>
+            <numerusform>hace %n horas</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/utils.cpp" line="242"/>
         <source>%n day(s) ago</source>
-        <translation><numerusform>hace %n día</numerusform><numerusform>hace %n días</numerusform></translation>
+        <translation>
+            <numerusform>hace %n día</numerusform>
+            <numerusform>hace %n días</numerusform>
+        </translation>
     </message>
 </context>
 <context>
     <name>WebPreviewPage</name>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="222"/>
+        <location filename="../qml/WebPreviewPage.qml" line="230"/>
         <source>Back</source>
         <translation>Volver</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="228"/>
+        <location filename="../qml/WebPreviewPage.qml" line="236"/>
         <source>Toggle Read</source>
         <translation>Leído</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="242"/>
+        <location filename="../qml/WebPreviewPage.qml" line="250"/>
         <source>Toggle Save</source>
         <translation>Guardado</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="242"/>
+        <location filename="../qml/WebPreviewPage.qml" line="250"/>
         <source>Toggle Star</source>
         <translation>Favorito</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="256"/>
+        <location filename="../qml/WebPreviewPage.qml" line="264"/>
         <source>Toggle Reader View</source>
         <translation>Modo Vista Lector</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="266"/>
+        <location filename="../qml/WebPreviewPage.qml" line="274"/>
         <source>Toggle Night View</source>
         <translation>Modo Nocturno</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="281"/>
+        <location filename="../qml/WebPreviewPage.qml" line="289"/>
         <source>Browser</source>
         <translation>Navegador</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="291"/>
+        <location filename="../qml/WebPreviewPage.qml" line="299"/>
         <source>Add to Pocket</source>
         <translation>Añadir a Pocket</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="302"/>
+        <location filename="../qml/WebPreviewPage.qml" line="310"/>
         <source>Toggle Like</source>
         <translation>Me gusta</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="312"/>
+        <location filename="../qml/WebPreviewPage.qml" line="320"/>
         <source>Toggle Share</source>
         <translation>Compartir</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="345"/>
+        <location filename="../qml/WebPreviewPage.qml" line="353"/>
         <source>Increase font</source>
         <translation>Aumentar fuente</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="335"/>
+        <location filename="../qml/WebPreviewPage.qml" line="343"/>
         <source>Decrease font</source>
         <translation>Disminuir fuente</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="329"/>
+        <location filename="../qml/WebPreviewPage.qml" line="337"/>
         <source>URL was copied to the clipboard</source>
         <translation>URL copiada al portapapeles</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="355"/>
+        <location filename="../qml/WebPreviewPage.qml" line="363"/>
         <source>Hide toolbar</source>
         <translation>Ocultar barra de herramientas</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="326"/>
+        <location filename="../qml/WebPreviewPage.qml" line="334"/>
         <source>Copy URL</source>
         <translation>Copiar URL</translation>
     </message>

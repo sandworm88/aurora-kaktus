@@ -2,10 +2,12 @@
 Type=Application
 X-Nemo-Application-Type=silica-qt5
 Name=Kaktus
-Icon=harbour-kaktus
-Exec=harbour-kaktus
+Icon=org.mkiol.kaktus
+Exec=org.mkiol.kaktus
 
-[X-Sailjail]
+X-Desktop-File-Install-Version=0.26
+
+[X-Application]
 Permissions=Internet;Pictures;WebView
 OrganizationName=org.mkiol
 ApplicationName=kaktus

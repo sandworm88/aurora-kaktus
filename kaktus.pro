@@ -1,4 +1,4 @@
-TARGET = harbour-kaktus
+TARGET = org.mkiol.kaktus
 
 CONFIG += c++1z sailfishapp json
 PKGCONFIG += mlite5

@@ -1,4 +1,4 @@
-Name:       harbour-kaktus
+Name:       org.mkiol.kaktus
 
 # >> macros
 # << macros

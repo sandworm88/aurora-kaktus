@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="cs">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="cs">
 <context>
     <name>AboutPage</name>
     <message>
@@ -132,7 +134,11 @@
     <message numerus="yes">
         <location filename="../qml/CoverPage.qml" line="19"/>
         <source>%n unread item(s)</source>
-        <translation><numerusform>jedna nepřečtená položka</numerusform><numerusform>%n nepřečtené položky</numerusform><numerusform>%n nepřečtených položek</numerusform><numerusform>%n nepřečtených položek</numerusform></translation>
+        <translation>
+            <numerusform>jedna nepřečtená položka</numerusform>
+            <numerusform>%n nepřečtené položky</numerusform>
+            <numerusform>%n nepřečtených položek</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../qml/CoverPage.qml" line="40"/>
@@ -451,62 +457,62 @@
 <context>
     <name>FeedWebContentPage</name>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="265"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="268"/>
         <source>Back</source>
         <translation>Zpět</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="271"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="274"/>
         <source>Toggle Read</source>
         <translation>Přepnout čtení</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="287"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="290"/>
         <source>Toggle Save</source>
         <translation>Přepnout ukládání</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="287"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="290"/>
         <source>Toggle Star</source>
         <translation>Přepnout ohvězdičkování</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="301"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="304"/>
         <source>Viewer</source>
         <translation>Prohlížeč</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="310"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="313"/>
         <source>Browser</source>
         <translation>Prohlížeč</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="318"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="321"/>
         <source>Add to Pocket</source>
         <translation>Přidat do Pocket</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="329"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="332"/>
         <source>Toggle Like</source>
         <translation>Přepnout zalíbení</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="339"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="342"/>
         <source>Toggle Share</source>
         <translation>Přepnout sdílení</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="356"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="359"/>
         <source>URL was copied to the clipboard</source>
         <translation>Adresa (URL) byla zkopírovaná do schránky</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="372"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="375"/>
         <source>Increase font</source>
         <translation>Zvětšit písmo</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="362"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="365"/>
         <source>Decrease font</source>
         <translation>Zmenšit písmo</translation>
     </message>
@@ -531,7 +537,7 @@
         <translation>Síť je odpojena</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="353"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="356"/>
         <source>Copy URL</source>
         <translation>Kopírovat adresu (URL)</translation>
     </message>
@@ -1467,98 +1473,114 @@
     <message numerus="yes">
         <location filename="../src/utils.cpp" line="230"/>
         <source>%n second(s) ago</source>
-        <translation><numerusform>před sekundou</numerusform><numerusform>před %n sekundami</numerusform><numerusform>před %n sekundami</numerusform><numerusform>před %n sekundami</numerusform></translation>
+        <translation>
+            <numerusform>před sekundou</numerusform>
+            <numerusform>před %n sekundami</numerusform>
+            <numerusform>před %n sekundami</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/utils.cpp" line="233"/>
         <source>%n minute(s) ago</source>
-        <translation><numerusform>před minutou</numerusform><numerusform>před %n minutami</numerusform><numerusform>před %n minutami</numerusform><numerusform>před %n minutami</numerusform></translation>
+        <translation>
+            <numerusform>před minutou</numerusform>
+            <numerusform>před %n minutami</numerusform>
+            <numerusform>před %n minutami</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/utils.cpp" line="236"/>
         <source>%n hour(s) ago</source>
-        <translation><numerusform>před hodinou</numerusform><numerusform>před %n hodinami</numerusform><numerusform>před %n hodinami</numerusform><numerusform>před %n hodinami</numerusform></translation>
+        <translation>
+            <numerusform>před hodinou</numerusform>
+            <numerusform>před %n hodinami</numerusform>
+            <numerusform>před %n hodinami</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/utils.cpp" line="242"/>
         <source>%n day(s) ago</source>
-        <translation><numerusform>včera</numerusform><numerusform>před %n dny</numerusform><numerusform>před %n dny</numerusform><numerusform>před %n dny</numerusform></translation>
+        <translation>
+            <numerusform>včera</numerusform>
+            <numerusform>před %n dny</numerusform>
+            <numerusform>před %n dny</numerusform>
+        </translation>
     </message>
 </context>
 <context>
     <name>WebPreviewPage</name>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="222"/>
+        <location filename="../qml/WebPreviewPage.qml" line="230"/>
         <source>Back</source>
         <translation>Zpět</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="228"/>
+        <location filename="../qml/WebPreviewPage.qml" line="236"/>
         <source>Toggle Read</source>
         <translation>Přepnout čtení</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="242"/>
+        <location filename="../qml/WebPreviewPage.qml" line="250"/>
         <source>Toggle Save</source>
         <translation>Přepnout ukládání</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="242"/>
+        <location filename="../qml/WebPreviewPage.qml" line="250"/>
         <source>Toggle Star</source>
         <translation>Přepnout ohvězdičkování</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="256"/>
+        <location filename="../qml/WebPreviewPage.qml" line="264"/>
         <source>Toggle Reader View</source>
         <translation>Přepnout čtenářský pohled</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="266"/>
+        <location filename="../qml/WebPreviewPage.qml" line="274"/>
         <source>Toggle Night View</source>
         <translation>Přepnout noční pohled</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="281"/>
+        <location filename="../qml/WebPreviewPage.qml" line="289"/>
         <source>Browser</source>
         <translation>Prohlížeč</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="291"/>
+        <location filename="../qml/WebPreviewPage.qml" line="299"/>
         <source>Add to Pocket</source>
         <translation>Přidat do Pocket</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="302"/>
+        <location filename="../qml/WebPreviewPage.qml" line="310"/>
         <source>Toggle Like</source>
         <translation>Přepnout zalíbení</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="312"/>
+        <location filename="../qml/WebPreviewPage.qml" line="320"/>
         <source>Toggle Share</source>
         <translation>Přepnout sdílení</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="345"/>
+        <location filename="../qml/WebPreviewPage.qml" line="353"/>
         <source>Increase font</source>
         <translation>Zvětšit písmo</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="335"/>
+        <location filename="../qml/WebPreviewPage.qml" line="343"/>
         <source>Decrease font</source>
         <translation>Zmenšit písmo</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="329"/>
+        <location filename="../qml/WebPreviewPage.qml" line="337"/>
         <source>URL was copied to the clipboard</source>
         <translation>Adresa (URL) byla zkopírovaná do schránky</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="355"/>
+        <location filename="../qml/WebPreviewPage.qml" line="363"/>
         <source>Hide toolbar</source>
         <translation>Skrýt nástrojový pruh</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="326"/>
+        <location filename="../qml/WebPreviewPage.qml" line="334"/>
         <source>Copy URL</source>
         <translation>Kopírovat adresu (URL)</translation>
     </message>

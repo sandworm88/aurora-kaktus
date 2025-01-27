@@ -11,7 +11,7 @@
 namespace Kaktus {
 static constexpr const char* ORG = "org.mkiol";
 static constexpr const char* APP_ID = "kaktus";
-static constexpr const char* APP_BINARY_ID = "harbour-kaktus";
+static constexpr const char* APP_BINARY_ID = "org.mkiol.kaktus";
 static constexpr const char* APP_NAME = "Kaktus";
 static constexpr const char* APP_VERSION = "3.1.1";
 static constexpr const char* AUTHOR = "Michal Kosciesza";

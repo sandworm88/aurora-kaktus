@@ -483,37 +483,37 @@
 <context>
     <name>FeedWebContentPage</name>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="265"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="268"/>
         <source>Back</source>
         <translation>返回</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="271"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="274"/>
         <source>Toggle Read</source>
         <translation>切换阅读</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="287"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="290"/>
         <source>Toggle Save</source>
         <translation>切换保存</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="287"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="290"/>
         <source>Toggle Star</source>
         <translation>切换星标</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="301"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="304"/>
         <source>Viewer</source>
         <translation>阅读器</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="310"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="313"/>
         <source>Browser</source>
         <translation>浏览器</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="318"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="321"/>
         <source>Add to Pocket</source>
         <translation>添加到Pocket</translation>
     </message>
@@ -522,27 +522,27 @@
         <translation type="vanished">分享链接</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="329"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="332"/>
         <source>Toggle Like</source>
         <translation>切换喜欢</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="339"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="342"/>
         <source>Toggle Share</source>
         <translation>切换分享</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="356"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="359"/>
         <source>URL was copied to the clipboard</source>
         <translation>链接已复制到剪贴板</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="372"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="375"/>
         <source>Increase font</source>
         <translation>加大字体</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="362"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="365"/>
         <source>Decrease font</source>
         <translation>缩小字体</translation>
     </message>
@@ -571,7 +571,7 @@
         <translation type="vanished">正在打开浏览器</translation>
     </message>
     <message>
-        <location filename="../qml/FeedWebContentPage.qml" line="353"/>
+        <location filename="../qml/FeedWebContentPage.qml" line="356"/>
         <source>Copy URL</source>
         <translation>复制网址</translation>
     </message>
@@ -1580,42 +1580,42 @@
         <translation type="vanished">页面无法显示</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="222"/>
+        <location filename="../qml/WebPreviewPage.qml" line="230"/>
         <source>Back</source>
         <translation>返回</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="228"/>
+        <location filename="../qml/WebPreviewPage.qml" line="236"/>
         <source>Toggle Read</source>
         <translation>切换阅读</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="242"/>
+        <location filename="../qml/WebPreviewPage.qml" line="250"/>
         <source>Toggle Save</source>
         <translation>切换保存</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="242"/>
+        <location filename="../qml/WebPreviewPage.qml" line="250"/>
         <source>Toggle Star</source>
         <translation>切换星标</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="256"/>
+        <location filename="../qml/WebPreviewPage.qml" line="264"/>
         <source>Toggle Reader View</source>
         <translation>切换到阅读视图</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="266"/>
+        <location filename="../qml/WebPreviewPage.qml" line="274"/>
         <source>Toggle Night View</source>
         <translation>切换到夜间视图</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="281"/>
+        <location filename="../qml/WebPreviewPage.qml" line="289"/>
         <source>Browser</source>
         <translation>浏览器</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="291"/>
+        <location filename="../qml/WebPreviewPage.qml" line="299"/>
         <source>Add to Pocket</source>
         <translation>添加到Pocket</translation>
     </message>
@@ -1624,22 +1624,22 @@
         <translation type="vanished">分享链接</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="302"/>
+        <location filename="../qml/WebPreviewPage.qml" line="310"/>
         <source>Toggle Like</source>
         <translation>切换喜欢</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="312"/>
+        <location filename="../qml/WebPreviewPage.qml" line="320"/>
         <source>Toggle Share</source>
         <translation>切换分享</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="345"/>
+        <location filename="../qml/WebPreviewPage.qml" line="353"/>
         <source>Increase font</source>
         <translation>加大字体</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="335"/>
+        <location filename="../qml/WebPreviewPage.qml" line="343"/>
         <source>Decrease font</source>
         <translation>缩小字体</translation>
     </message>
@@ -1648,17 +1648,17 @@
         <translation type="vanished">正在打开浏览器</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="329"/>
+        <location filename="../qml/WebPreviewPage.qml" line="337"/>
         <source>URL was copied to the clipboard</source>
         <translation>链接已复制到剪贴板</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="355"/>
+        <location filename="../qml/WebPreviewPage.qml" line="363"/>
         <source>Hide toolbar</source>
         <translation>隐藏工具栏</translation>
     </message>
     <message>
-        <location filename="../qml/WebPreviewPage.qml" line="326"/>
+        <location filename="../qml/WebPreviewPage.qml" line="334"/>
         <source>Copy URL</source>
         <translation>复制网址</translation>
     </message>
