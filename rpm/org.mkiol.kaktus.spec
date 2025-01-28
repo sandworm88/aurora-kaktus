@@ -40,7 +40,7 @@ Multi aggregators feed reader for Sailfish OS
 # >> build pre
 # << build pre
 
-%qtc_qmake5 
+%qtc_qmake5
 
 %qtc_make %{?_smp_mflags}
 
@@ -62,7 +62,7 @@ desktop-file-install --delete-original       \
 
 %files
 %defattr(-,root,root,-)
-%{_bindir}
+%{_bindir}/%{name}
 %{_datadir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
